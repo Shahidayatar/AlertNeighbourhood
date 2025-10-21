@@ -3,7 +3,7 @@ export function timestamp() {
 }
 
 export function info(...args: any[]) {
-  console.log('[INFO]', timestamp(), ...args);
+  console.log('[INFO]', timestamp(), ...args, "it works");
 }
 
 export function warn(...args: any[]) {
