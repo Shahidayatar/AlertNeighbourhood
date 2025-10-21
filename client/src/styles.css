@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.app header { background: #0b5; padding: 12px; }
+.main { display: flex; height: calc(100vh - 60px); }
+.left { width: 360px; padding: 12px; overflow: auto; background: #f7f7f7 }
+.right { flex: 1; }
+.alert-item { border-bottom: 1px solid #ddd; padding: 8px 0 }
+.alert-form { display: flex; flex-direction: column; gap: 8px }
+.map { height: 100%; }
